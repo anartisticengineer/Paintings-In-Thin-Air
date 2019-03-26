@@ -33,7 +33,7 @@ void setup() {
   //Just for demonstration, we'll use Los Angeles with Imperial Units
   String url = "http://api.openweathermap.org/data/2.5/weather?q=Los Angeles";
   //***REPLACE with your own! After signing up for a free account***
-  String id = "&APPID=2f541877f4e0621b60286fc1009d5933"; 
+  String id = "&APPID=REPLACE-WITH-YOUR-OWN-ID"; //****Copy and paste the id here: starting after the = sign.****
   String unit = "&units=imperial";
 
   url+=id;
